@@ -1,0 +1,185 @@
+/* Eléments principaux de la page */
+
+body
+{
+    background: url('../images/parchemin.jpg');
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    
+}
+
+#bloc_page
+{
+    width: 900px;
+    margin: auto;
+}
+
+section h1,nav a
+{
+    font-family: serif;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+h1
+{font-weight : bold;
+}
+/* Header */
+
+h2
+{
+background-color: rgb(238,146,20);
+border: 3px black solid
+}
+header
+{
+    
+}
+
+#titre_principal
+{
+    display: inline-block;
+}
+
+header h1
+{
+    font-family: serif;
+    font-size: 2.5em;
+    font-weight: normal;
+}
+
+
+
+header h2
+{
+    font-family: Dayrom, serif;
+    font-size: 1.1em;
+    margin-top: 0px;
+    font-weight: normal;
+}
+
+/* Navigation */
+
+nav
+{
+    display: inline-block;
+    width: 740px;
+    text-align: right;
+}
+
+nav ul
+{
+    list-style-type: none;
+}
+
+nav li
+{
+    display: inline-block;
+    margin-right: 40px;
+}
+
+nav a:link
+{
+    font-size: 1.3em;
+    color: rgb(,0,0);
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+
+nav a:hover
+{
+    color: rgb(162,17,20) ; 
+    border-bottom: 3px solid ;
+}
+
+nav a :visited
+{
+	color: rgb(39,4,206);
+
+}
+
+/* Bannière */
+
+#banniere_image
+{
+    margin-top: 15px;
+    height: 200px;
+    border-radius: 5px;
+    background: url('../images/lettre.jpg') no-repeat;
+    position: relative;
+    box-shadow: 0px 4px 4px #1c1a19;
+    margin-bottom: 25px;
+}
+
+
+/* Corps */
+
+article, aside
+{
+    display: inline-block;
+    vertical-align: top;
+    text-align: justify;
+}
+
+article
+{
+    width: 625px;
+    margin-right: 15px;
+}
+
+aside
+{
+background: url('../images/gris.jpg');
+}
+.ico_categorie
+{
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+article p
+{
+    font-size: 0.8em;
+}
+
+aside
+{
+    position: relative;
+    width: 235px;
+    background-color: ;
+    box-shadow: 0px 2px 5px #1c1a19;
+    border-radius: 5px;
+    padding: 10px;
+    color: black;
+    font-size: 0.9em;
+}
+
+
+
+aside img
+{
+    margin-right: 40px;
+}
+
+/*Footer */
+
+footer,a:visited
+{
+color rgb(113,16,133);
+
+}
+
+/* Fond */
+
+
+
+/* Correctifs pour les vieilles versions d'Internet Explorer */
+
+/* Pour activer un positionnement type inline-block sur les vieilles versions d'IE */
+
+.old_ie #titre_principal, .old_ie #logo, .old_ie header h1, .old_ie nav, .old_ie nav li, 
+{
+    display: inline;
+    zoom: 1;
+}
+
+/* Quelques ajustements pour les vieilles versions d'IE */
